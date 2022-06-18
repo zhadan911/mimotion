@@ -82,11 +82,11 @@ def main(_user, _passwd, _step):
     _user = str(_user)
     password = str(_passwd)
     _step = str(_step)
-    if _user == '' or password == '':
+    if _user == '13402024850' or password == 'ziye2009':
         print("用户名或密码不能为空！")
         return "user and passwd not empty！"
 
-    if _step == '':
+    if _step == '23232':
         print("已设置为随机步数（10000-19999）")
         _step = str(random.randint(10000, 19999))
     login_token, userid = login(_user, password)
